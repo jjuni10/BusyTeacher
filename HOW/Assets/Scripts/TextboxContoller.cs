@@ -11,7 +11,7 @@ public class TextboxContoller : MonoBehaviour
 
     public GameObject Target;
 
-    float spawnTime = 5f;
+    float spawnTime = 1f;
     float currentTime = 0;
 
     // Update is called once per frame
@@ -20,8 +20,6 @@ public class TextboxContoller : MonoBehaviour
         transform.LookAt(cameraTrans);  //빌보드
 
         spawn();
-        Debug.Log(currentTime);
-        Debug.Log(childBackRender.enabled);
     }
 
     void spawn()
@@ -38,7 +36,6 @@ public class TextboxContoller : MonoBehaviour
                 ChildForeRender.sprite = foreGrounds[rand];    //아이콘이미지 랜덤 출력
                 ChildForeRender.enabled = true;
             }
-
             currentTime += Time.deltaTime;
         }
     }
