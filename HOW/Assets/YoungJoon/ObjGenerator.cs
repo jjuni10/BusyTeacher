@@ -4,16 +4,17 @@ using UnityEngine;
 
 public class ObjGenerator : MonoBehaviour
 {
-    public GameObject [] Obj;
-    public GameObject[] Obj_Prefab;
+    public GameObject parents;
+    public GameObject [] obj;
+    public GameObject[] obj_prefab;
     public Transform [] offset;
 
     // Start is called before the first frame update
     void Start()
     {
-        for(int i = 0; i < Obj.Length; i++)
+        for(int i = 0; i < obj.Length; i++)
         {
-            offset[i] = Obj[i].transform;
+            offset[i] = obj[i].transform;
             Debug.Log(offset[i]);
         }
     }
@@ -21,11 +22,12 @@ public class ObjGenerator : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        for (int i = 0; i < Obj.Length; i++)
+        for (int i = 0; i < obj.Length; i++)
         {
-            if (Obj[i]==null)
+            if (obj[i]==null)
             {
-                Obj[i]=Instantiate(Obj_Prefab[i], offset[i]);
+                obj[i]=Instantiate(obj_prefab[i], offset[i]);
+                obj[i].transform.parent = parents.transform;
             }
         }
     }
