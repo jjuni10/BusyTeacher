@@ -8,6 +8,10 @@ TagManager:
   - Target
   - Item
   - Floor
+  - GameStart
+  - GameEnd
+  - MainScene
+  - Retry
   layers:
   - Default
   - TransparentFX
