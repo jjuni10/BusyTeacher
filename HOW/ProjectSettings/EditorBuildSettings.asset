@@ -4,7 +4,10 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/YoungJoon/VR_Lab_2.unity
+    guid: c6258cd4fbd04874d9fdee3074b2cae7
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: f55495cbd5ee48647b8daeeb3de8300b, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 8b710b6ef715777409eaa8069a20ce94, type: 2}
