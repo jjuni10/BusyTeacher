@@ -11,16 +11,13 @@ public class TextboxContoller : MonoBehaviour
 
     public GameObject Target;
 
-    float spawnTime = 1f;
+    float spawnTime = 3f;
     float currentTime = 0;
 
     // Update is called once per frame
     void Update()
     {
         transform.LookAt(cameraTrans);  //ºôº¸µå
-
-        if (childBackRender.enabled == false)
-            ChildForeRender.enabled = false;
 
         spawn();
     }

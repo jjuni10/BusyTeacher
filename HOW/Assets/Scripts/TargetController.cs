@@ -7,10 +7,10 @@ public class TargetController : MonoBehaviour
     public int targetEvent = -1;    //defult == -1
     public GameObject Score;
     public SpriteRenderer textBoxBackRender;
+    public SpriteRenderer textBoxForeRender;
 
     private void OnCollisionEnter(Collision collision)
     {
-        Debug.Log("충돌 인식");
         if (collision.gameObject.tag == "Item") //아이템과 충돌 시
         {
             Debug.Log("태그 인식");
@@ -20,6 +20,7 @@ public class TargetController : MonoBehaviour
                 Debug.Log("이벤트 넘버");
                 Score.GetComponent<Score>().score += 10;
                 textBoxBackRender.enabled = false;
+                textBoxForeRender.enabled = false;
             }
         }
         if(collision.gameObject.tag != "Floor")
