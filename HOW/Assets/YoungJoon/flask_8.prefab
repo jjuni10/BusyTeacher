@@ -97,6 +97,7 @@ GameObject:
   - component: {fileID: 1710118846737208958}
   - component: {fileID: 1710118846737208959}
   - component: {fileID: 2792459808796259659}
+  - component: {fileID: -7046347298440114624}
   m_Layer: 0
   m_Name: flask_8
   m_TagString: Item
@@ -216,3 +217,16 @@ MonoBehaviour:
   m_snapOrientation: 0
   m_snapOffset: {fileID: 0}
   m_grabPoints: []
+--- !u!114 &-7046347298440114624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1710707238730384899}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 976c6bfe7d61c8646aedc5575ba9393d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  itemNum: 1

@@ -8,21 +8,21 @@ public class TargetController : MonoBehaviour
     public GameObject Score;
     public SpriteRenderer textBoxBackRender;
 
-    private void Update()
-    {
-        Debug.Log(targetEvent);
-    }
     private void OnCollisionEnter(Collision collision)
     {
-        if(collision.gameObject.tag == "Item") //아이템과 충돌 시
+        Debug.Log("충돌 인식");
+        if (collision.gameObject.tag == "Item") //아이템과 충돌 시
         {
+            Debug.Log("태그 인식");
+            Debug.Log(collision.gameObject.GetComponent<ItemController>().itemNum + ":" + targetEvent);
             if (collision.gameObject.GetComponent<ItemController>().itemNum == targetEvent) //현재 이벤트에 해당하는 아이템과 충돌 시
             {
+                Debug.Log("이벤트 넘버");
                 Score.GetComponent<Score>().score += 10;
                 textBoxBackRender.enabled = false;
             }
         }
-
-        Destroy(collision.gameObject);  //아이템 삭제
+        if(collision.gameObject.tag != "Floor")
+            Destroy(collision.gameObject);  //아이템 삭제
     }
 }

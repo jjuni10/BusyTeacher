@@ -19,6 +19,9 @@ public class TextboxContoller : MonoBehaviour
     {
         transform.LookAt(cameraTrans);  //빌보드
 
+        if (childBackRender.enabled == false)
+            ChildForeRender.enabled = false;
+
         spawn();
     }
 
@@ -31,7 +34,7 @@ public class TextboxContoller : MonoBehaviour
                 currentTime = 0;
 
                 childBackRender.enabled = true; //배경이미지 출력
-                int rand = Random.Range(0, 4);
+                int rand = Random.Range(0, 3);
                 Target.GetComponent<TargetController>().targetEvent = rand;
                 ChildForeRender.sprite = foreGrounds[rand];    //아이콘이미지 랜덤 출력
                 ChildForeRender.enabled = true;
