@@ -15,7 +15,7 @@ F:/We_Meet/BusyTeacher/HOW
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-5097
+4445
 Successfully changed project path to: F:/We_Meet/BusyTeacher/HOW
 F:/We_Meet/BusyTeacher/HOW
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,8 +47,8 @@ F:/We_Meet/BusyTeacher/HOW
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 89.14 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.72 ms.
+Refreshing native plugins compatible for Editor in 77.68 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.73 ms.
 Initialize engine version: 2021.3.8f1 (b30333d56e81)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path F:/We_Meet/BusyTeacher/HOW/Assets
@@ -64,52 +64,51 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56856
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56212
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.8f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.059250 seconds.
+Registered in 0.054564 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 80.24 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
+Refreshing native plugins compatible for Editor in 77.83 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.083 seconds
+- Completed reload, in  1.047 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1084ms)
-		BeginReloadAssembly (230ms)
+	ReloadAssembly (1047ms)
+		BeginReloadAssembly (206ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (608ms)
-			LoadAssemblies (217ms)
+		EndReloadAssembly (588ms)
+			LoadAssemblies (192ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (150ms)
+			SetupTypeCache (139ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (337ms)
+			SetupLoadedEditorAssemblies (330ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (88ms)
+				InitializePlatformSupportModulesInManaged (83ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (80ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (108ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
+				RefreshPlugins (78ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (105ms)
+				ProcessInitializeOnLoadMethodAttributes (62ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007523 seconds.
-Android Extension - Scanning For ADB Devices 888 ms
+Registered in 0.009808 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 1.36 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Package Manager log level set to [2]
 [XR] OculusXRPlugin: registering subsystems
@@ -118,44 +117,44 @@ Package Manager log level set to [2]
 [XR] Unable to register input lifecyle provider: [1]
 [XR] OVRP version 1.78.0
 Mono: successfully reloaded assembly
-- Completed reload, in  1.481 seconds
+- Completed reload, in  1.776 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1481ms)
-		BeginReloadAssembly (236ms)
+	ReloadAssembly (1777ms)
+		BeginReloadAssembly (389ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (10ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (22ms)
-		EndReloadAssembly (1032ms)
-			LoadAssemblies (207ms)
+			CreateAndSetChildDomain (134ms)
+		EndReloadAssembly (1185ms)
+			LoadAssemblies (232ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
+			SetupTypeCache (316ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (75ms)
-			SetupLoadedEditorAssemblies (511ms)
+			RebuildScriptCaches (93ms)
+			SetupLoadedEditorAssemblies (559ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (32ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (122ms)
-				ProcessInitializeOnLoadAttributes (247ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (55ms)
+				InitializePlatformSupportModulesInManaged (39ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (131ms)
+				ProcessInitializeOnLoadAttributes (280ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (57ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (18ms)
+			AwakeInstancesAfterBackupRestoration (20ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.97 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.05 ms.
-Unloading 3116 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 50 unused Assets / (141.5 KB). Loaded Objects now: 3562.
-Memory consumption went from 131.9 MB to 131.8 MB.
-Total: 3.263100 ms (FindLiveObjects: 0.296200 ms CreateObjectMapping: 0.219100 ms MarkObjects: 2.602500 ms  DeleteObjects: 0.144200 ms)
+Refreshing native plugins compatible for Editor in 0.93 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3115 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 49 unused Assets / (141.7 KB). Loaded Objects now: 3562.
+Memory consumption went from 131.9 MB to 131.7 MB.
+Total: 2.897100 ms (FindLiveObjects: 0.275400 ms CreateObjectMapping: 0.197000 ms MarkObjects: 2.297800 ms  DeleteObjects: 0.126000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -170,310 +169,55 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11683.648436 seconds.
-  path: Assets/Oculus/VR
-  artifactKey: Guid(c30f884b9f976b846a902f421e77c369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/VR using Guid(c30f884b9f976b846a902f421e77c369) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db2a9536dfd5dcbd1cb463424f286b1d') in 0.006401 seconds 
-========================================================================
-Received Prepare
-Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
-Refreshing native plugins compatible for Editor in 19.21 ms, found 7 plugins.
-Preloading 1 native plugins for Editor in 0.06 ms.
-Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (106.6 KB). Loaded Objects now: 3562.
-Memory consumption went from 63.0 MB to 62.9 MB.
-Total: 5.908400 ms (FindLiveObjects: 0.386300 ms CreateObjectMapping: 0.343200 ms MarkObjects: 5.041900 ms  DeleteObjects: 0.136100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 580.470129 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_button03_anim.fbx
-  artifactKey: Guid(0bc3b5262633562459436d35c62799ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_button03_anim.fbx using Guid(0bc3b5262633562459436d35c62799ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37c026ac792f045c84015645f104f25a') in 0.135967 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.505168 seconds.
-  path: Assets/SD Citizen Characters - Volume02/Models/Characters/ch_10_01/ch_10_01.FBX
-  artifactKey: Guid(17305f2a80c42134f93eabf6922856e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/SD Citizen Characters - Volume02/Models/Characters/ch_10_01/ch_10_01.FBX using Guid(17305f2a80c42134f93eabf6922856e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a7af55fe5b3e00c4fe98c5fb790f2e') in 0.135005 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.286565 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_l_controller_anim.fbx
-  artifactKey: Guid(f29e0ae9b6aa173489854687db6a05bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_l_controller_anim.fbx using Guid(f29e0ae9b6aa173489854687db6a05bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ef8a5c92b67086eff6fdbf6b0cdaebe') in 0.011142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.762265 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_thumbs_up_anim.fbx
-  artifactKey: Guid(367eacd8142e4ca478642189323d9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_thumbs_up_anim.fbx using Guid(367eacd8142e4ca478642189323d9cee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1efe448b68578638e00430cbbdb3d89') in 0.010681 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Models/r_hand_skeletal_lowres.fbx
-  artifactKey: Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Models/r_hand_skeletal_lowres.fbx using Guid(d0c255d07fd68f14b94e55d388e7e6bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac3c61c69cdd98ffa6ea8e95a9faadbf') in 0.041993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_point_anim.fbx
-  artifactKey: Guid(a00bb4e2a48d6b04f9a9865f78869df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_point_anim.fbx using Guid(a00bb4e2a48d6b04f9a9865f78869df2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4c0f0343d8d1cfd667d69f1c0491c95') in 0.009812 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000048 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_trigger_pull_mask_anim.fbx
-  artifactKey: Guid(c57b76fcd87d3154cb02f7143c65b5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_trigger_pull_mask_anim.fbx using Guid(c57b76fcd87d3154cb02f7143c65b5cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe2206799a2ffc39e27070684a7b43') in 0.011971 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_NE_anim.fbx
-  artifactKey: Guid(e108265fe97750840a25b872a5c94089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_NE_anim.fbx using Guid(e108265fe97750840a25b872a5c94089) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed50e2ead9cdcaa48b6499cf9c9aad1c') in 0.010789 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_trigger_mask_anim.fbx
-  artifactKey: Guid(840f7f51c23e45444b5cbe0ee9e14998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_trigger_mask_anim.fbx using Guid(840f7f51c23e45444b5cbe0ee9e14998) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9516c8a8eb3a9562e20c0e3c0135bd7') in 0.011763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_S_anim.fbx
-  artifactKey: Guid(b86d0f11b32f9e44ab4211604fda16a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_S_anim.fbx using Guid(b86d0f11b32f9e44ab4211604fda16a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfdfced6f7d767c956d21d519b35e535') in 0.009113 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_E_anim.fbx
-  artifactKey: Guid(a3f35ae4ca81f73438440e8a973733e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_E_anim.fbx using Guid(a3f35ae4ca81f73438440e8a973733e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7281555f126f573f24c2985dc89061d') in 0.009014 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_button01_mask_anim.fbx
-  artifactKey: Guid(89f0f9ca0eacba44e8d06ec9ab479a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_button01_mask_anim.fbx using Guid(89f0f9ca0eacba44e8d06ec9ab479a1a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccd9b5ec2419b7f02ccfd04ed001c4eb') in 0.008674 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_anim.fbx
-  artifactKey: Guid(e704c090dc2948b4c9f8934d0dc4714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_anim.fbx using Guid(e704c090dc2948b4c9f8934d0dc4714e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17ab7b04a1221b19d650343806e031e6') in 0.007965 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_grip_button_anim.fbx
-  artifactKey: Guid(14c95f30c03a4494eaa118f7c6d162b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_grip_button_anim.fbx using Guid(14c95f30c03a4494eaa118f7c6d162b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1c2d01c23761de4c9eb0858185754b9') in 0.009884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_generic_anim.fbx
-  artifactKey: Guid(6c41a6e223fece0458162624394578d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_generic_anim.fbx using Guid(6c41a6e223fece0458162624394578d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d282a809d2eb3db683e51024629c4ce') in 0.009388 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_NW_anim.fbx
-  artifactKey: Guid(7cfa2096bbea1744884339f2cdca3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_NW_anim.fbx using Guid(7cfa2096bbea1744884339f2cdca3788) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf29891bf4a29b82323defd2e1852367') in 0.008660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_button02_anim.fbx
-  artifactKey: Guid(77560bac273e50e43a1954458b47de17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_button02_anim.fbx using Guid(77560bac273e50e43a1954458b47de17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f4734c21e37a38e97faa21cb0960223') in 0.011209 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_N_anim.fbx
-  artifactKey: Guid(bd2409cb8478d3942bdcfdb0837280fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_N_anim.fbx using Guid(bd2409cb8478d3942bdcfdb0837280fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b044c57363dbce6bc3865fb703008963') in 0.008939 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_SE_anim.fbx
-  artifactKey: Guid(6420c67c5b49c8449bbb7ebd21187173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_SE_anim.fbx using Guid(6420c67c5b49c8449bbb7ebd21187173) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6ec7f4c97d452a33363615274a70bd0') in 0.009010 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_W_anim.fbx
-  artifactKey: Guid(b0bf56079a209ad4ba420466902d5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_W_anim.fbx using Guid(b0bf56079a209ad4ba420466902d5821) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eba4c1007783711250cee32008134e39') in 0.008818 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_button02_mask_anim.fbx
-  artifactKey: Guid(4ebca2e14f3dbd04881cfb094230b6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_neutral_button02_mask_anim.fbx using Guid(4ebca2e14f3dbd04881cfb094230b6df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce112f0f991823342350c77b0399889d') in 0.009084 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_billiard_ball_anim.fbx
-  artifactKey: Guid(49313745e0e0842789ab3723bbc0d74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/r_hand_hold_billiard_ball_anim.fbx using Guid(49313745e0e0842789ab3723bbc0d74c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ce6ba08f3ceb654c614cc386a2abd89') in 0.010827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_SW_anim.fbx
-  artifactKey: Guid(0b95938a77128554693a8add53e022a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/r_controller_joy_SW_anim.fbx using Guid(0b95938a77128554693a8add53e022a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3a44a722ddfd2b0c93a585e7728dbcd') in 0.008130 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.643139 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_squirtgun_squeeze.fbx
-  artifactKey: Guid(808dcbebdf91d4538b1a35ab4f5a5684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_squirtgun_squeeze.fbx using Guid(808dcbebdf91d4538b1a35ab4f5a5684) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c8c6df96ba335122f6b700a5dc47c25') in 0.011958 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025508 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_3qtr_fist_anim.fbx
-  artifactKey: Guid(79e0d96a3e30fec46a930ab7dd95ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_relax_3qtr_fist_anim.fbx using Guid(79e0d96a3e30fec46a930ab7dd95ef5f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9aa7e64a11aa7f71b5757a9ff2daf0') in 0.008135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Models/l_hand_skeletal_lowres.fbx
-  artifactKey: Guid(ca20b3907ff1c794cb89c1ad2cce8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Models/l_hand_skeletal_lowres.fbx using Guid(ca20b3907ff1c794cb89c1ad2cce8282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '912dc4398f10b411eb3057929a33fbde') in 0.027137 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.010392 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_pinch_anim.fbx
-  artifactKey: Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_pinch_anim.fbx using Guid(a91ff20f7450bf446a6bf0bfb5e932ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55a96356c44efd65490e7f31330bc890') in 0.009250 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.029096 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_generic_anim.fbx
-  artifactKey: Guid(b8943b5ee74fcd945a2746d0051466cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_hold_generic_anim.fbx using Guid(b8943b5ee74fcd945a2746d0051466cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e6dc10176bdc52c4786b46ac9c5fa0b') in 0.008866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.028082 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_fist_anim.fbx
-  artifactKey: Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_fist_anim.fbx using Guid(7cb2e1480bb51ce4282f540ea3f41d4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94c130b69f2e3927708bf789637f031a') in 0.009081 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_index_mask_anim.fbx
-  artifactKey: Guid(8f30ac6cbbbe39d43886ad7626f7e2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/CustomHands/Animations/l_hand_cap_touch_index_mask_anim.fbx using Guid(8f30ac6cbbbe39d43886ad7626f7e2b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5eb2903d5f85c08016c11b6fedea0ee') in 0.010453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.027105 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_trigger_pull_anim.fbx
-  artifactKey: Guid(182278cefb47da243850fc09dc4cc209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_trigger_pull_anim.fbx using Guid(182278cefb47da243850fc09dc4cc209) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5970686d059f92cc2b55c3ae2aa96fd') in 0.008717 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.025055 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_neutral_grip_button_mask_anim.fbx
-  artifactKey: Guid(4961dc65df2786046be6f0e39b28da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_neutral_grip_button_mask_anim.fbx using Guid(4961dc65df2786046be6f0e39b28da7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94bdee16a60535c7ac5e81405d57ae72') in 0.007688 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.026110 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_neutral_button01_mask_anim.fbx
-  artifactKey: Guid(a297026597cd6f24eaafc30c8acd3660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_neutral_button01_mask_anim.fbx using Guid(a297026597cd6f24eaafc30c8acd3660) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3a4d614be456599dd8226da484a7432') in 0.009060 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_W_anim.fbx
-  artifactKey: Guid(2f1df26289a19bb4ea46f213b340524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_W_anim.fbx using Guid(2f1df26289a19bb4ea46f213b340524c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c66c5d42c4ae22751de8580fcb57c5a') in 0.009419 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.014281 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_SE_anim.fbx
-  artifactKey: Guid(983c3f6cea2a3ea4fad3e697bea1746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_SE_anim.fbx using Guid(983c3f6cea2a3ea4fad3e697bea1746f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a53c894044926b72608328fae077b6') in 0.009617 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_NE_anim.fbx
-  artifactKey: Guid(df1d28bcd38b2b54ca4dd1ab1e835271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_NE_anim.fbx using Guid(df1d28bcd38b2b54ca4dd1ab1e835271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd8cc85524dfd9d4ea6c9989b8681290') in 0.010334 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_grip_button_anim.fbx
-  artifactKey: Guid(11c5fdfc76258564e8e9e635d76d99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_grip_button_anim.fbx using Guid(11c5fdfc76258564e8e9e635d76d99b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cb0dfc834ca08f4d5a66868337251d4') in 0.011127 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_E_anim.fbx
-  artifactKey: Guid(e241ef1d86dba5f48b9987e881378d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_joy_E_anim.fbx using Guid(e241ef1d86dba5f48b9987e881378d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa31d03c655bf402dda1d1da038c0a88') in 0.010312 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_button01_anim.fbx
-  artifactKey: Guid(5656ce9e2c4daca43b3b6dde03763e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Core/TouchControllers/Animations/l_controller_button01_anim.fbx using Guid(5656ce9e2c4daca43b3b6dde03763e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '577cd6bf4e76be5704ebe8ed2ca104bc') in 0.008730 seconds 
+  Time since last request: 13025.470153 seconds.
+  path: Assets/HaeJun/Scenes/VR_Lab.unity
+  artifactKey: Guid(c6258cd4fbd04874d9fdee3074b2cae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/HaeJun/Scenes/VR_Lab.unity using Guid(c6258cd4fbd04874d9fdee3074b2cae7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bc78f404808c8c075374d1aaa25e788') in 0.005958 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.008542 seconds.
+Registered in 0.007882 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.97 ms, found 7 plugins.
+Refreshing native plugins compatible for Editor in 0.89 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.06 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.403 seconds
+- Completed reload, in  1.358 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1404ms)
-		BeginReloadAssembly (252ms)
+	ReloadAssembly (1358ms)
+		BeginReloadAssembly (251ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (38ms)
-		EndReloadAssembly (977ms)
-			LoadAssemblies (222ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (936ms)
+			LoadAssemblies (215ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (479ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (474ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (40ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (226ms)
-				ProcessInitializeOnLoadMethodAttributes (45ms)
-				AfterProcessingInitializeOnLoad (50ms)
+				BeforeProcessingInitializeOnLoad (119ms)
+				ProcessInitializeOnLoadAttributes (220ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (60ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (17ms)
+			AwakeInstancesAfterBackupRestoration (18ms)
 Platform modules already initialized, skipping
 Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
 Refreshing native plugins compatible for Editor in 6.46 ms, found 7 plugins.
 Preloading 1 native plugins for Editor in 0.05 ms.
 Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 41 unused Assets / (101.6 KB). Loaded Objects now: 3577.
-Memory consumption went from 139.7 MB to 139.6 MB.
-Total: 3.974000 ms (FindLiveObjects: 0.290700 ms CreateObjectMapping: 0.218300 ms MarkObjects: 3.308100 ms  DeleteObjects: 0.155700 ms)
+Unloading 41 unused Assets / (109.3 KB). Loaded Objects now: 3566.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 4.284300 ms (FindLiveObjects: 0.290000 ms CreateObjectMapping: 0.295700 ms MarkObjects: 3.583800 ms  DeleteObjects: 0.113600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -487,314 +231,137 @@ AssetImportParameters requested are different than current active one (requested
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 453.083679 seconds.
-  path: Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx
-  artifactKey: Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/Interaction/Samples/Objects/Environment/SmallRoom/Models/smallRoom.fbx using Guid(f7c82b9ce28f07e4fa7f50280661a061) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32fe3c9a5e4615c8e1910b8d60c4a22d') in 0.261899 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.007798 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 1.03 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.474 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1475ms)
+		BeginReloadAssembly (249ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1050ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (253ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (536ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (44ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (127ms)
+				ProcessInitializeOnLoadAttributes (263ms)
+				ProcessInitializeOnLoadMethodAttributes (43ms)
+				AfterProcessingInitializeOnLoad (57ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.03 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (109.2 KB). Loaded Objects now: 3570.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 3.300200 ms (FindLiveObjects: 0.283900 ms CreateObjectMapping: 0.161300 ms MarkObjects: 2.749800 ms  DeleteObjects: 0.104400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 64.017054 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/cupboard.mat
-  artifactKey: Guid(de050ac35da70cb4381e8be04c8a4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/cupboard.mat using Guid(de050ac35da70cb4381e8be04c8a4190) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4c573ae69e02ffcbe712bf784824b00') in 0.223524 seconds 
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008021 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.99 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.429 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1430ms)
+		BeginReloadAssembly (237ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (33ms)
+		EndReloadAssembly (1023ms)
+			LoadAssemblies (208ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (267ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (513ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (41ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (106ms)
+				ProcessInitializeOnLoadAttributes (261ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
+				AfterProcessingInitializeOnLoad (64ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (21ms)
+Platform modules already initialized, skipping
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 6.82 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.04 ms.
+Unloading 3008 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (109.2 KB). Loaded Objects now: 3574.
+Memory consumption went from 122.5 MB to 122.4 MB.
+Total: 3.960000 ms (FindLiveObjects: 0.362100 ms CreateObjectMapping: 0.270000 ms MarkObjects: 3.206200 ms  DeleteObjects: 0.120700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Chemistry Class - School/models/textures/cupboard_Normal.png
-  artifactKey: Guid(9f341dc904d7a8c47afa4e90542dee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/textures/cupboard_Normal.png using Guid(9f341dc904d7a8c47afa4e90542dee79) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66f64bde4de56a0d94812eab5ba8e378') in 0.040481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Chemistry Class - School/models/textures/cupboard_2_MetallicSmoothness.png
-  artifactKey: Guid(e22e9e8d340edde45a2e7d53200954e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/textures/cupboard_2_MetallicSmoothness.png using Guid(e22e9e8d340edde45a2e7d53200954e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e33737313807436c5ad12476be46cc80') in 0.023964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/cupboard_2_glass.mat
-  artifactKey: Guid(e1a137cbf080158429d3e8a17f829101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/cupboard_2_glass.mat using Guid(e1a137cbf080158429d3e8a17f829101) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd69e9781840f4c35d334bcc84955443') in 0.048232 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Chemistry Class - School/models/textures/cupboard_2_AlbedoTransparency.png
-  artifactKey: Guid(f831f4e32193669499fe76b525b25c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/textures/cupboard_2_AlbedoTransparency.png using Guid(f831f4e32193669499fe76b525b25c50) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b39d56b31d695b9835c1c4105e4a3655') in 0.019857 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Chemistry Class - School/models/textures/cupboard_AlbedoTransparency.png
-  artifactKey: Guid(787fc6359001e4949a8c15ff666b6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/textures/cupboard_AlbedoTransparency.png using Guid(787fc6359001e4949a8c15ff666b6470) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8fd8bf7fae621b99afce390e4f085688') in 0.024866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Oculus/SampleFramework/Usage/TouchPro/Prefabs/StylusTip/StylusTipBreadCrumbPf.prefab
-  artifactKey: Guid(737cbb352eac8f04d8242de1c303e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Oculus/SampleFramework/Usage/TouchPro/Prefabs/StylusTip/StylusTipBreadCrumbPf.prefab using Guid(737cbb352eac8f04d8242de1c303e9fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '170fc3b2e294874d54aa6b2b3ed27e09') in 0.021880 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.433631 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/bathtub.prefab
-  artifactKey: Guid(24eba742a04dad544a25759f3a4a707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/bathtub.prefab using Guid(24eba742a04dad544a25759f3a4a707c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '064536188c637fd2c406a6551fb588ae') in 0.064945 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/sphere.prefab
-  artifactKey: Guid(f8506836894e26e44bdba4c8f95b2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/sphere.prefab using Guid(f8506836894e26e44bdba4c8f95b2516) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2dd7232f1e61e399ad6bc4801a4070c') in 0.015180 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/chemistry_chair.prefab
-  artifactKey: Guid(5a278f44726463c4586f63f518178798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/chemistry_chair.prefab using Guid(5a278f44726463c4586f63f518178798) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '627ae4581ced08c22cdd4960e0f888a7') in 0.205528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/holder.prefab
-  artifactKey: Guid(47a81c1021314234a9bc98e85c720b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/holder.prefab using Guid(47a81c1021314234a9bc98e85c720b3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06ebe51701477f85e5ea731d30c0ec69') in 0.051866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/tablet.prefab
-  artifactKey: Guid(3d5d88d7a2cccb343a6d7a517884d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/tablet.prefab using Guid(3d5d88d7a2cccb343a6d7a517884d5fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6004ef8c2740fa8f6ba7f11aa9c17a9') in 0.011564 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/flask_1.prefab
-  artifactKey: Guid(a25d33825780a8346a8ad0d3132797be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/flask_1.prefab using Guid(a25d33825780a8346a8ad0d3132797be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3dd9127b5600b859c117f1f4abb8d258') in 0.015167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/teacher's_desk.prefab
-  artifactKey: Guid(f5d6522ace0d82246a7e04162ff7d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/teacher's_desk.prefab using Guid(f5d6522ace0d82246a7e04162ff7d666) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc71fc8711398da14936b4e1fcc6f278') in 0.034459 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000015 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/test-tube.prefab
-  artifactKey: Guid(18522944afb12834288fa669d39a2a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/test-tube.prefab using Guid(18522944afb12834288fa669d39a2a9d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc20b68236aeb8d2ea1668d8920f7418') in 0.943844 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/weight.prefab
-  artifactKey: Guid(eb0e35577d19cef45a78cb0253ff18e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/weight.prefab using Guid(eb0e35577d19cef45a78cb0253ff18e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9630ce7155edd481a06d524ac1dda90c') in 0.701765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/dispenser.prefab
-  artifactKey: Guid(176068ce18ceec2429303af5405864dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/dispenser.prefab using Guid(176068ce18ceec2429303af5405864dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73be69423c36646fc1aec2df58db55e8') in 0.711047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/tripod.prefab
-  artifactKey: Guid(8d82419e59fe55a4e8d1627ea5f3a0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/tripod.prefab using Guid(8d82419e59fe55a4e8d1627ea5f3a0cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b13fb0bf95d9cfef7374cc6f3a5a54a6') in 0.696964 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/test-tube_2.prefab
-  artifactKey: Guid(c0e2c038d3e03774dba2fea1ca2be189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/test-tube_2.prefab using Guid(c0e2c038d3e03774dba2fea1ca2be189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f33394f6d61ce1e6f9510ecd9af67b7') in 0.698027 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/Plane_Desk.prefab
-  artifactKey: Guid(2539f5cedd9d1884e8cf644be9dc2c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/Plane_Desk.prefab using Guid(2539f5cedd9d1884e8cf644be9dc2c04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8eca33bb48cdba6bd7a6ce701919801') in 0.224274 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/flask_5.prefab
-  artifactKey: Guid(780a0cd4a9aead34b8fa53a988db2627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/flask_5.prefab using Guid(780a0cd4a9aead34b8fa53a988db2627) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2ea55c4741c0b200946e7330237da1') in 0.018884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000147 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/blender.prefab
-  artifactKey: Guid(a372d09daf9a0e54cb8ba2505d749295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/blender.prefab using Guid(a372d09daf9a0e54cb8ba2505d749295) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aabed8baec42d7bcda376b9aa9e65495') in 0.724050 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Chemistry Class - School/models/prefab/poli_dispenser.prefab
-  artifactKey: Guid(1b2749fb59816124e930500afe00cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/prefab/poli_dispenser.prefab using Guid(1b2749fb59816124e930500afe00cc58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d6747df10cfd3ab609b62a5a257755') in 0.191689 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.965859 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/antibodies_color.mat
-  artifactKey: Guid(eeb20124b0aa05c40b2adcc7ebf20e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/antibodies_color.mat using Guid(eeb20124b0aa05c40b2adcc7ebf20e65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef807d3c461b2ff4249e6419b294ff31') in 0.012462 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/microplate.mat
-  artifactKey: Guid(3a72c4841a0068c428d75f0c1b7291ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/microplate.mat using Guid(3a72c4841a0068c428d75f0c1b7291ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f61610d80c0ebb9923623ba39b5eb39c') in 0.203866 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/school_window.mat
-  artifactKey: Guid(73218e12735a52645bee0d4153871856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/school_window.mat using Guid(73218e12735a52645bee0d4153871856) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76dff0a4a53341849d2704f5e5233328') in 0.008835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/poli_dispenser.mat
-  artifactKey: Guid(7dd4d53bd2c0e4e44a5f7fe3c7702f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/poli_dispenser.mat using Guid(7dd4d53bd2c0e4e44a5f7fe3c7702f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9339bb4a0e81fad7acfb067b984fc9a4') in 0.166412 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/lamp_black.mat
-  artifactKey: Guid(58b1cb738c1d32d468a1d16d0dbe5e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/lamp_black.mat using Guid(58b1cb738c1d32d468a1d16d0dbe5e7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7186766b707c2f41cc4670158e2edcf') in 0.010040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/windowsill.mat
-  artifactKey: Guid(2e3ac9aadcc0a4c4a815af22dbe75ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/windowsill.mat using Guid(2e3ac9aadcc0a4c4a815af22dbe75ac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2cc27953e099f100540df6e71a54436') in 0.011100 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/school_door.mat
-  artifactKey: Guid(dbc6f9eaa1a4754469ae080ee2416919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/school_door.mat using Guid(dbc6f9eaa1a4754469ae080ee2416919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9bb1fe6f1f96434d15b3875c28a709f') in 0.009238 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000061 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/jalousie.mat
-  artifactKey: Guid(cc7b8508b755f35439eaaa47af9b31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/jalousie.mat using Guid(cc7b8508b755f35439eaaa47af9b31bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a00774270167dd637ff185d35d2d4e8') in 0.052823 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/school_door_AlbedoTransparency.mat
-  artifactKey: Guid(23bdd52a8ce030e4f836dd3b08e62eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/school_door_AlbedoTransparency.mat using Guid(23bdd52a8ce030e4f836dd3b08e62eb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abb4eab16d5ac852ad3cd350f9d4805b') in 0.014133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/samples.mat
-  artifactKey: Guid(fec24a3dbdfee4b42a717949da1f7c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/samples.mat using Guid(fec24a3dbdfee4b42a717949da1f7c14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08b403397a290fb90770e0879d08bd7d') in 0.174418 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/bottle.mat
-  artifactKey: Guid(0a5813251c2c74f4d967dca21a6a7176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/bottle.mat using Guid(0a5813251c2c74f4d967dca21a6a7176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ef230d452018a9fe51b820f8cdc2bf2') in 0.012339 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/school_desk_AlbedoTransparency.mat
-  artifactKey: Guid(000238790825e9a47bdac2ca42e3c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/school_desk_AlbedoTransparency.mat using Guid(000238790825e9a47bdac2ca42e3c743) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7bf65298ad102567d1c3ceb9b57e53') in 0.010004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/linoleum_Albedo.mat
-  artifactKey: Guid(6ebb55b4e4584d648a8c695521ce8843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/linoleum_Albedo.mat using Guid(6ebb55b4e4584d648a8c695521ce8843) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '462569dab6cb49b9a6ae45d545eb3254') in 0.010598 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/blackboard.mat
-  artifactKey: Guid(8ceeac254687126499c3a943e0e5412d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/blackboard.mat using Guid(8ceeac254687126499c3a943e0e5412d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75b0a461ae85d060188ec48687cbe41') in 0.025650 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/m_red.mat
-  artifactKey: Guid(ac90c2417f8858949958cd05d1bac1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/m_red.mat using Guid(ac90c2417f8858949958cd05d1bac1c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '772e9e47d49de4dbd66ef6dc5f5d3ff8') in 0.010586 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/extinguisher.mat
-  artifactKey: Guid(3069399117455744e9b7d2c36bae65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/extinguisher.mat using Guid(3069399117455744e9b7d2c36bae65a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b8378adf79acdaf2cbee88598c59db6') in 0.057004 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/periodic_table.mat
-  artifactKey: Guid(3854c67904983e24f8b306e3f1108964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/periodic_table.mat using Guid(3854c67904983e24f8b306e3f1108964) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb6caf6ef56ff7c4a3ca190cb1175838') in 0.020279 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/water_table.mat
-  artifactKey: Guid(ef2a3505abe16e048a2a73711f9ed46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/water_table.mat using Guid(ef2a3505abe16e048a2a73711f9ed46e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe96add22e97e7ffca2a59f505f65f59') in 0.051638 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/bottle_2.mat
-  artifactKey: Guid(d484e5b02c1dc8b4dbb3bced09f7e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/bottle_2.mat using Guid(d484e5b02c1dc8b4dbb3bced09f7e2a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7e8857c4dbf15748b2562e6de044a47') in 0.012204 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/bottle_cap.mat
-  artifactKey: Guid(8fc003e87ab07524faeb953cd71bae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/bottle_cap.mat using Guid(8fc003e87ab07524faeb953cd71bae7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6373dce0fbe419d684102a89050d8c3e') in 0.011633 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/chemistry_window_glass.mat
-  artifactKey: Guid(6a2cf2accfa3bb14d899cf64536cf664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/chemistry_window_glass.mat using Guid(6a2cf2accfa3bb14d899cf64536cf664) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0726993b8ca7eb379af128eaac24ec50') in 0.058008 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/m_white.mat
-  artifactKey: Guid(59be607ed26def341879441e09cb42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/m_white.mat using Guid(59be607ed26def341879441e09cb42ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '02478d662d2e73148dca9a191141ea62') in 0.011109 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/red.mat
-  artifactKey: Guid(a5e67002ec81c2445b15a820253bf546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/red.mat using Guid(a5e67002ec81c2445b15a820253bf546) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '634ca1cd1acf11bdc044588e7c7cf5f6') in 0.010860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/test-tube_solution.mat
-  artifactKey: Guid(68b809a4fa30c354d8a3ebfcd14b880a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/test-tube_solution.mat using Guid(68b809a4fa30c354d8a3ebfcd14b880a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c404889709d84be1d88d64bdd76391d1') in 0.011723 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/dispenser_props.mat
-  artifactKey: Guid(297bc1c493298e049a96f4dd25d06a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/dispenser_props.mat using Guid(297bc1c493298e049a96f4dd25d06a26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ece7398393405ca7cbba1db23d8fc5') in 0.057563 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/monitor.mat
-  artifactKey: Guid(64ef63a964fb7eb40b76dbac76c27454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/monitor.mat using Guid(64ef63a964fb7eb40b76dbac76c27454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94ecb6fbe1a193004893bcc11ecd6968') in 0.127341 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/chemistry_desk.mat
-  artifactKey: Guid(51c86c56c2ce15942854c0e4740c6cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/chemistry_desk.mat using Guid(51c86c56c2ce15942854c0e4740c6cb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '412df771742b08c404b0033aa72c64b6') in 0.175249 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Chemistry Class - School/models/Materials/metal.mat
-  artifactKey: Guid(88398b1794b246d46b3cadea9f9a3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Chemistry Class - School/models/Materials/metal.mat using Guid(88398b1794b246d46b3cadea9f9a3d2c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47c706085d4c73a9f7b2ba6e3e47bcd') in 0.012558 seconds 
+Received Prepare
+Shader 'Oculus/OVRMRCameraFrameLit': fallback shader 'Alpha-Diffuse' not found
+Refreshing native plugins compatible for Editor in 22.24 ms, found 7 plugins.
+Preloading 1 native plugins for Editor in 0.05 ms.
+Unloading 41 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 41 unused Assets / (106.7 KB). Loaded Objects now: 3574.
+Memory consumption went from 63.1 MB to 63.0 MB.
+Total: 4.214000 ms (FindLiveObjects: 0.387600 ms CreateObjectMapping: 0.425100 ms MarkObjects: 3.286300 ms  DeleteObjects: 0.114000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
