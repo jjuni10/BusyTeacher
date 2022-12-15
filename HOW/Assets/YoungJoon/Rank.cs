@@ -19,14 +19,21 @@ public class Rank : MonoBehaviour
 
     private void Start()
     {
-        ScorePrint();
+        if(RankScoreCurrent!=null)
+        {
+            PrintCurrentScore();
+        }
+        PrintRankScore();
     }
 
-    public void ScorePrint()
+    public void PrintCurrentScore()
     {
-        //텍스트UI에 출력
+        //플레이어 점수 텍스트UI에 출력
         RankScoreCurrent.text = string.Format("My Score : {0}점", PlayerPrefs.GetInt("CurrentPlayerScore"));
+    }
 
+    public void PrintRankScore()
+    {
         //랭킹에 맞춰 점수를 불러오고, 이를 출력함
         for(int i = 0; i < bestScore.Length; i++)
         {

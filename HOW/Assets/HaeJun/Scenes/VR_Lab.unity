@@ -136,7 +136,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: de6c40c17f7e81942a50ee7d84412895, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: de6c40c17f7e81942a50ee7d84412895, type: 3}
       propertyPath: m_RootOrder
@@ -219,22 +219,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2076181, y: 1.8704972, z: 0.62597525}
   m_Center: {x: -0.000000059604645, y: 0.9352486, z: 0.000000074505806}
---- !u!54 &88108038
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 88108036}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1 &91849327
 GameObject:
   m_ObjectHideFlags: 0
@@ -245,7 +229,6 @@ GameObject:
   m_Component:
   - component: {fileID: 91849328}
   - component: {fileID: 91849330}
-  - component: {fileID: 91849329}
   m_Layer: 0
   m_Name: Back
   m_TagString: Obstacle
@@ -268,22 +251,6 @@ Transform:
   m_Father: {fileID: 1743387781}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &91849329
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 91849327}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &91849330
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -315,7 +282,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 5857246210533525315, guid: 2539f5cedd9d1884e8cf644be9dc2c04, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 5857246210533694307, guid: 2539f5cedd9d1884e8cf644be9dc2c04, type: 3}
       propertyPath: m_RootOrder
@@ -408,7 +375,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
       propertyPath: m_RootOrder
@@ -486,7 +453,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
       propertyPath: m_RootOrder
@@ -1528,7 +1495,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
       propertyPath: m_RootOrder
@@ -2042,7 +2009,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
       propertyPath: m_RootOrder
@@ -2310,7 +2277,7 @@ GameObject:
   - component: {fileID: 620254514}
   m_Layer: 0
   m_Name: LeftObj
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2359,7 +2326,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: de6c40c17f7e81942a50ee7d84412895, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: de6c40c17f7e81942a50ee7d84412895, type: 3}
       propertyPath: m_RootOrder
@@ -2442,22 +2409,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2076181, y: 1.8704972, z: 0.62597525}
   m_Center: {x: -0.000000059604645, y: 0.9352486, z: 0.000000074505806}
---- !u!54 &648923706
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 648923704}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1001 &653215217
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2655,7 +2606,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1345905578554348, guid: a25d33825780a8346a8ad0d3132797be, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4473554739392800, guid: a25d33825780a8346a8ad0d3132797be, type: 3}
       propertyPath: m_RootOrder
@@ -3116,7 +3067,6 @@ GameObject:
   m_Component:
   - component: {fileID: 776632793}
   - component: {fileID: 776632795}
-  - component: {fileID: 776632794}
   m_Layer: 0
   m_Name: Left
   m_TagString: Obstacle
@@ -3139,22 +3089,6 @@ Transform:
   m_Father: {fileID: 1743387781}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &776632794
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 776632792}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &776632795
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -3212,7 +3146,7 @@ GameObject:
   - component: {fileID: 787966573}
   m_Layer: 0
   m_Name: FrontObj
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3748,7 +3682,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1507899385508026, guid: 1f3ef62759c1f5049a34b76954c6ba2a, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4735765117650680, guid: 1f3ef62759c1f5049a34b76954c6ba2a, type: 3}
       propertyPath: m_RootOrder
@@ -4006,22 +3940,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 5857246210533525315, guid: 2539f5cedd9d1884e8cf644be9dc2c04, type: 3}
   m_PrefabInstance: {fileID: 111471772}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1023278903
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1023278899}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1023278904
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4217,7 +4135,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1670380758444124, guid: 56ce60e4e63407f4cbe4b218456b37d1, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4978330871182146, guid: 56ce60e4e63407f4cbe4b218456b37d1, type: 3}
       propertyPath: m_RootOrder
@@ -4283,22 +4201,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4978330871182146, guid: 56ce60e4e63407f4cbe4b218456b37d1, type: 3}
   m_PrefabInstance: {fileID: 1095823957}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1095823962
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 451174212}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1095823963
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4631,22 +4533,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1345905578554348, guid: a25d33825780a8346a8ad0d3132797be, type: 3}
   m_PrefabInstance: {fileID: 676326710}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1181392150
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1181392146}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1181392151
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4665,22 +4551,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
   m_PrefabInstance: {fileID: 112059214}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1196235509
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1196235506}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1196235510
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4930,7 +4800,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1907815259047804, guid: eb0e35577d19cef45a78cb0253ff18e5, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4621528798071694, guid: eb0e35577d19cef45a78cb0253ff18e5, type: 3}
       propertyPath: m_RootOrder
@@ -4996,22 +4866,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4621528798071694, guid: eb0e35577d19cef45a78cb0253ff18e5, type: 3}
   m_PrefabInstance: {fileID: 1298030418}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1298030423
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1095280775}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1298030424
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -5776,7 +5630,7 @@ GameObject:
   - component: {fileID: 1338581281}
   m_Layer: 0
   m_Name: lamp
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5793,10 +5647,9 @@ GameObject:
   - component: {fileID: 1339581411}
   - component: {fileID: 1338581283}
   - component: {fileID: 1340875718}
-  - component: {fileID: 1340875716}
   m_Layer: 0
   m_Name: roof
-  m_TagString: Obstacle
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5814,7 +5667,7 @@ GameObject:
   - component: {fileID: 1338581285}
   m_Layer: 0
   m_Name: chemistry_window_o
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5832,7 +5685,7 @@ GameObject:
   - component: {fileID: 1338581287}
   m_Layer: 0
   m_Name: jalousie
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5849,10 +5702,9 @@ GameObject:
   - component: {fileID: 1339581417}
   - component: {fileID: 1338581289}
   - component: {fileID: 1340875724}
-  - component: {fileID: 1340875722}
   m_Layer: 0
   m_Name: chemistry_door_general
-  m_TagString: Obstacle
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5870,7 +5722,7 @@ GameObject:
   - component: {fileID: 1338581291}
   m_Layer: 0
   m_Name: chemistry_window
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5887,10 +5739,9 @@ GameObject:
   - component: {fileID: 1339581421}
   - component: {fileID: 1338581293}
   - component: {fileID: 1340875728}
-  - component: {fileID: 1340875726}
   m_Layer: 0
   m_Name: baseboard
-  m_TagString: Obstacle
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5926,7 +5777,7 @@ GameObject:
   - component: {fileID: 1338581311}
   m_Layer: 0
   m_Name: room_1
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5944,7 +5795,7 @@ GameObject:
   - component: {fileID: 1338581309}
   m_Layer: 0
   m_Name: room
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5960,7 +5811,7 @@ GameObject:
   - component: {fileID: 1340875743}
   m_Layer: 0
   m_Name: room
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5996,22 +5847,6 @@ Transform:
   m_Father: {fileID: 1340875743}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1340875716
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340850147}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!4 &1340875717
 Transform:
   m_ObjectHideFlags: 0
@@ -6071,22 +5906,6 @@ Transform:
   m_Father: {fileID: 1340875743}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1340875722
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340850153}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!4 &1340875723
 Transform:
   m_ObjectHideFlags: 0
@@ -6130,22 +5949,6 @@ Transform:
   m_Father: {fileID: 1340875743}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1340875726
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1340850157}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!4 &1340875727
 Transform:
   m_ObjectHideFlags: 0
@@ -6347,7 +6150,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1966635741310750, guid: eaea2d9f8ab126345b0c8d8c3bd3840a, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4773651658625526, guid: eaea2d9f8ab126345b0c8d8c3bd3840a, type: 3}
       propertyPath: m_RootOrder
@@ -6413,22 +6216,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4773651658625526, guid: eaea2d9f8ab126345b0c8d8c3bd3840a, type: 3}
   m_PrefabInstance: {fileID: 1379360007}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1379360012
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 620482150}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1379360013
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -6465,7 +6252,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
       propertyPath: m_RootOrder
@@ -6576,7 +6363,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1099618678717938, guid: cb77eb603c2006c4c9a4a960b4f019c6, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4145157048960014, guid: cb77eb603c2006c4c9a4a960b4f019c6, type: 3}
       propertyPath: m_RootOrder
@@ -6660,22 +6447,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.4596445, y: 0.36016816, z: 0.10000014}
   m_Center: {x: -0.0000005066395, y: 0.17896134, z: -0.0000023681853}
---- !u!54 &1508946363
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508946361}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!1 &1513737560
 GameObject:
   m_ObjectHideFlags: 0
@@ -6889,22 +6660,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
   m_PrefabInstance: {fileID: 1436065300}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1552145790
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1552145787}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1552145791
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7359,7 +7114,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1625223471}
   - component: {fileID: 1625223473}
-  - component: {fileID: 1625223472}
   m_Layer: 0
   m_Name: Right
   m_TagString: Obstacle
@@ -7382,22 +7136,6 @@ Transform:
   m_Father: {fileID: 1743387781}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &1625223472
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1625223470}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1625223473
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7424,7 +7162,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1907815259047804, guid: eb0e35577d19cef45a78cb0253ff18e5, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 4621528798071694, guid: eb0e35577d19cef45a78cb0253ff18e5, type: 3}
       propertyPath: m_RootOrder
@@ -7490,22 +7228,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4621528798071694, guid: eb0e35577d19cef45a78cb0253ff18e5, type: 3}
   m_PrefabInstance: {fileID: 1641385445}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1641385450
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 312461696}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1641385451
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7524,22 +7246,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
   m_PrefabInstance: {fileID: 553356463}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1688582099
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1688582096}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1688582100
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7566,7 +7272,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: ce5bbab3bd323d44abf599a92acff3ea, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: ce5bbab3bd323d44abf599a92acff3ea, type: 3}
       propertyPath: m_RootOrder
@@ -7745,22 +7451,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: ce5bbab3bd323d44abf599a92acff3ea, type: 3}
   m_PrefabInstance: {fileID: 1689954136}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1725020042
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1725020039}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1725020043
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -7835,7 +7525,7 @@ GameObject:
   - component: {fileID: 1743387781}
   m_Layer: 0
   m_Name: RoomBox
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8114,7 +7804,7 @@ GameObject:
   - component: {fileID: 1773280871}
   m_Layer: 0
   m_Name: RightObj
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8261,22 +7951,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
   m_PrefabInstance: {fileID: 386209489}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1827208041
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1827208038}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1827208042
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8308,7 +7982,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
       propertyPath: m_TagString
-      value: Obstacle
+      value: Floor
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
       propertyPath: m_RootOrder
@@ -8373,22 +8047,6 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 36a32db0ec2b1d64b93b1d979fb29c02, type: 3}
   m_PrefabInstance: {fileID: 1847215343}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1847215347
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1214291163}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1847215348
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8407,22 +8065,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 44b231d62062b4e4bbc7bbe4caa3bc1b, type: 3}
   m_PrefabInstance: {fileID: 123643644}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1892048369
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1892048366}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 1
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 0
-  m_CollisionDetection: 0
 --- !u!65 &1892048370
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8491,22 +8133,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 1507899385508026, guid: 1f3ef62759c1f5049a34b76954c6ba2a, type: 3}
   m_PrefabInstance: {fileID: 958521044}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1918092449
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1918092445}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 0
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &1918092450
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -8765,7 +8391,6 @@ GameObject:
   m_Component:
   - component: {fileID: 2037969866}
   - component: {fileID: 2037969868}
-  - component: {fileID: 2037969867}
   m_Layer: 0
   m_Name: Front
   m_TagString: Obstacle
@@ -8788,22 +8413,6 @@ Transform:
   m_Father: {fileID: 1743387781}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!54 &2037969867
-Rigidbody:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2037969865}
-  serializedVersion: 2
-  m_Mass: 1
-  m_Drag: 0
-  m_AngularDrag: 0.05
-  m_UseGravity: 0
-  m_IsKinematic: 1
-  m_Interpolate: 0
-  m_Constraints: 126
-  m_CollisionDetection: 0
 --- !u!65 &2037969868
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -9098,7 +8707,7 @@ GameObject:
   - component: {fileID: 9043707256531874427}
   m_Layer: 0
   m_Name: teacher's_desk
-  m_TagString: Untagged
+  m_TagString: Floor
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
